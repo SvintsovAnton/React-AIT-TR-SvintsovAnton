@@ -1,3 +1,5 @@
+import "./styles.css";
+
 function ProfileCard(){
     return (
         <div class="profileCard">
