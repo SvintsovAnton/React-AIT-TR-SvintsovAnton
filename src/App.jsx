@@ -1,40 +1,19 @@
 import "./App.css";
-import Button from "./components/Button/Button";
-import ProfileCard from "./components/ProfileCard/ProfileCard";
 
+// Lessons
+import Lesson18 from "./lessons/Lesson18/Lesson18";
+
+// Homeworks
+import Homework18 from "./homeworks/Homework18/Homework18";
 
 // 1. Компоненты пишутся с заглавной буквы
 // 2. Компоненты должны возвращать JSX(DOM элементы - HTML теги)
 function App() {
- // const nameOfCard = "Animal";
- // const animal = {
- //   name: "Tiger",
- //   age: 15,
- //   src: "https://files.worldwildlife.org/wwfcmsprod/images/Tiger_resting_Bandhavgarh_National_Park_India/hero_small/6aofsvaglm_Medium_WW226365.jpg",
- // }; 
-
-
   return (
-<div class ="cardsInRow">
-<ProfileCard/>
-<ProfileCard/>
-<ProfileCard/>
-</div>
-    
- //   <div className="App">
- //     <p>React app lesson 17</p>
-   //   <div className="button-container">
-    //    <Button />
-//        <Button />
-  //      <Button />
- //     </div>
-   //   <div className="car-card">
-     //   <h3>{nameOfCard}</h3>
-       // <img src={animal.src} alt="Tiger image" />
-       // <p>Name: {animal.name}</p>
-       // <p>Age: {animal.age}</p>
-     // </div>
-   // </div>
+    <div className="App">
+      <Lesson18 />
+      {/* <Homework18 /> */}
+    </div>
   );
 }
 
