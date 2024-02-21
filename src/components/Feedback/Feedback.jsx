@@ -21,20 +21,9 @@ function Feedback() {
         });
     };
 
-    const resetLike =()=>{
-        setLike(()=>{
-            return 0;
-        });
-    };
 
-    const resetDisLike=()=>{
-        setDislike(()=>{return 0;});
-    };
 
-    const resetResult = ()=>{
-        resetLike();
-        resetDisLike();
-    }
+    const resetResult = ( )=> { setLike(0); setDislike(0); }
 
     return (
         <div className='feedback-wrapper'>
